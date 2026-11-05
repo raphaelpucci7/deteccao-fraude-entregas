@@ -1,0 +1,54 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-22T05:40:07Z"
+  },
+  "title": "Detecção de Fraude em Entregas",
+  "order": [
+    "capa",
+    "pergunta",
+    "resposta",
+    "metodo",
+    "limpeza",
+    "kpi",
+    "inflacao",
+    "deteccao",
+    "determinismo",
+    "poder",
+    "dimensoes",
+    "limites",
+    "medidas",
+    "roadmap",
+    "conclusao"
+  ],
+  "sections": {
+    "s1": {
+      "description": "A pergunta de fraude, a resposta e o que a validação revelou sobre a base.",
+      "start": "capa"
+    },
+    "s2": {
+      "description": "Como a análise foi feita: limpeza, definição do KPI e teste corrigido.",
+      "start": "metodo"
+    },
+    "s3": {
+      "description": "Por que a base é gerada e não sustenta acusação individual.",
+      "start": "determinismo"
+    },
+    "s4": {
+      "description": "O que fazer com isso: medidas, roadmap e conclusão.",
+      "start": "limites"
+    }
+  },
+  "faces": {
+    "source-serif-4": {
+      "family": "Source Serif 4",
+      "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    },
+    "ibm-plex-sans": {
+      "family": "IBM Plex Sans",
+      "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    }
+  },
+  "designSystems": []
+}

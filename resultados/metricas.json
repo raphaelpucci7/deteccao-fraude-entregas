@@ -1,0 +1,317 @@
+{
+  "validacao": {
+    "linhas_brutas": 10000,
+    "valores_nulos": 0,
+    "identidade_itens_ok": true,
+    "periodo_inicio": "01/01/2023",
+    "periodo_fim": "31/12/2023",
+    "regioes": [
+      "Altamonte Springs",
+      "Apopka",
+      "Clermont",
+      "Kissimmee",
+      "Orlando",
+      "Sanford",
+      "Winter Park"
+    ],
+    "colunas": [
+      "driver_name",
+      "driver_id",
+      "region",
+      "date",
+      "delivery_hour_num",
+      "items_delivered",
+      "items_missing",
+      "items_total",
+      "order_amount_clean"
+    ]
+  },
+  "artefatos": {
+    "teto_items_delivered": 19,
+    "pedidos_removidos": 96,
+    "faltas_removidas": 114,
+    "pct_das_faltas_brutas": 0.0687990343995172,
+    "pct_com_falta_no_grupo_removido": 1.0,
+    "teto_mais_um": 20,
+    "pedidos_1_item": 419,
+    "pedidos_1_item_com_falta": 0,
+    "valores_distintos_entregas_por_motorista": [
+      6,
+      7,
+      10,
+      11
+    ],
+    "max_faltas_em_um_pedido": 3
+  },
+  "kpis": {
+    "pedidos": 9904,
+    "pedidos_com_falta": 1406,
+    "itens": 99427,
+    "itens_faltantes": 1543,
+    "motoristas": 1247,
+    "incidencia_por_pedido": 0.14196284329563813,
+    "incidencia_ic95": [
+      0.1352280090796523,
+      0.1489753131600091
+    ],
+    "taxa_item_agregada": 0.015518923431261126,
+    "taxa_item_ic95": [
+      0.014769128730106384,
+      0.016306153481000646
+    ],
+    "media_razoes_INCORRETA": 0.021772601907746825,
+    "inflacao_da_metrica_incorreta": 1.402971153520119,
+    "faturamento": 2796992.9,
+    "valor_em_risco": 72870.16169405908,
+    "valor_em_risco_pct_faturamento": 0.026053037779988315,
+    "benchmark_industria": 0.015,
+    "benchmark_dentro_do_ic": true,
+    "diferenca_vs_benchmark_pp": 0.051892343126112676
+  },
+  "evento_por_pedido": {
+    "tabela": [
+      {
+        "tamanho_pedido": 2,
+        "pedidos": 539,
+        "p_pedido_com_falta": 0.15584415584415584,
+        "taxa_por_item": 0.07792207792207792
+      },
+      {
+        "tamanho_pedido": 3,
+        "pedidos": 527,
+        "p_pedido_com_falta": 0.14231499051233396,
+        "taxa_por_item": 0.05060088551549652
+      },
+      {
+        "tamanho_pedido": 4,
+        "pedidos": 547,
+        "p_pedido_com_falta": 0.14442413162705667,
+        "taxa_por_item": 0.037477148080438755
+      },
+      {
+        "tamanho_pedido": 5,
+        "pedidos": 519,
+        "p_pedido_com_falta": 0.16570327552986513,
+        "taxa_por_item": 0.035838150289017344
+      },
+      {
+        "tamanho_pedido": 6,
+        "pedidos": 509,
+        "p_pedido_com_falta": 0.14538310412573674,
+        "taxa_por_item": 0.026522593320235755
+      },
+      {
+        "tamanho_pedido": 7,
+        "pedidos": 578,
+        "p_pedido_com_falta": 0.14359861591695502,
+        "taxa_por_item": 0.022985664854176965
+      },
+      {
+        "tamanho_pedido": 8,
+        "pedidos": 543,
+        "p_pedido_com_falta": 0.15653775322283608,
+        "taxa_por_item": 0.021408839779005526
+      },
+      {
+        "tamanho_pedido": 9,
+        "pedidos": 516,
+        "p_pedido_com_falta": 0.12209302325581395,
+        "taxa_por_item": 0.014857881136950904
+      },
+      {
+        "tamanho_pedido": 10,
+        "pedidos": 477,
+        "p_pedido_com_falta": 0.11530398322851153,
+        "taxa_por_item": 0.012578616352201259
+      },
+      {
+        "tamanho_pedido": 11,
+        "pedidos": 543,
+        "p_pedido_com_falta": 0.15469613259668508,
+        "taxa_por_item": 0.015904905407667837
+      },
+      {
+        "tamanho_pedido": 12,
+        "pedidos": 547,
+        "p_pedido_com_falta": 0.15173674588665448,
+        "taxa_por_item": 0.014320536258379037
+      },
+      {
+        "tamanho_pedido": 13,
+        "pedidos": 529,
+        "p_pedido_com_falta": 0.15122873345935728,
+        "taxa_por_item": 0.012214628471717318
+      },
+      {
+        "tamanho_pedido": 14,
+        "pedidos": 518,
+        "p_pedido_com_falta": 0.16602316602316602,
+        "taxa_por_item": 0.012961941533370104
+      },
+      {
+        "tamanho_pedido": 15,
+        "pedidos": 548,
+        "p_pedido_com_falta": 0.16058394160583941,
+        "taxa_por_item": 0.012287104622871046
+      },
+      {
+        "tamanho_pedido": 16,
+        "pedidos": 510,
+        "p_pedido_com_falta": 0.12352941176470589,
+        "taxa_por_item": 0.008455882352941176
+      },
+      {
+        "tamanho_pedido": 17,
+        "pedidos": 496,
+        "p_pedido_com_falta": 0.1592741935483871,
+        "taxa_por_item": 0.010436432637571158
+      },
+      {
+        "tamanho_pedido": 18,
+        "pedidos": 511,
+        "p_pedido_com_falta": 0.16634050880626222,
+        "taxa_por_item": 0.010871928680147858
+      },
+      {
+        "tamanho_pedido": 19,
+        "pedidos": 528,
+        "p_pedido_com_falta": 0.14015151515151514,
+        "taxa_por_item": 0.008273524720893141
+      }
+    ],
+    "spearman_incidencia_vs_tamanho": 0.16615067079463364,
+    "spearman_incidencia_p": 0.5099504603438955,
+    "spearman_taxa_item_vs_tamanho": -0.9669762641898865,
+    "spearman_taxa_item_p": 6.412439256727511e-11,
+    "queda_taxa_item": 9.418244406196214
+  },
+  "dimensoes": {
+    "regiao": {
+      "qui2": 2.9185881798444036,
+      "gl": 6,
+      "p_valor": 0.8189933596634126,
+      "significativo": false,
+      "amplitude_pp": 1.9659165955253466
+    },
+    "hora": {
+      "qui2": 23.38956374024737,
+      "gl": 23,
+      "p_valor": 0.43822458411150045,
+      "significativo": false,
+      "amplitude_pp": 6.232624181173859
+    },
+    "mes": {
+      "qui2": 7.892911812960031,
+      "gl": 11,
+      "p_valor": 0.7228633394194776,
+      "significativo": false,
+      "amplitude_pp": 3.092174173275475
+    }
+  },
+  "anomalia": {
+    "motoristas_testados": 1247,
+    "taxa_base_usada": 0.14196284329563813,
+    "p_bruto_abaixo_05": 0,
+    "falsos_positivos_esperados": 62.35,
+    "significativos_fdr": 0,
+    "significativos_bonferroni": 0,
+    "menor_p_valor": 0.05850924735869022,
+    "menor_q_valor": 0.43689240392986045,
+    "motoristas_com_zero_faltas": 822,
+    "pct_motoristas_zero_faltas": 0.6591820368885325,
+    "max_entregas_por_motorista": 11,
+    "mediana_entregas": 7.0,
+    "max_entregas_com_falta": 4
+  },
+  "estrutura_motoristas": {
+    "tabela_cruzada": {
+      "6": {
+        "0": 374
+      },
+      "7": {
+        "0": 448
+      },
+      "9": {
+        "1": 1,
+        "2": 15
+      },
+      "10": {
+        "2": 19,
+        "3": 100
+      },
+      "11": {
+        "3": 123,
+        "4": 167
+      }
+    },
+    "volumes_distintos": 5,
+    "volumes_deterministicos": 2,
+    "qui2_vs_binomial": 2227.874634192859,
+    "observado": {
+      "0": 822,
+      "1": 1,
+      "2": 34,
+      "3": 223,
+      "4": 167,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "esperado_binomial": {
+      "0": 386.2,
+      "1": 472.4,
+      "2": 266.2,
+      "3": 93.6,
+      "4": 23.4,
+      "5": 4.5,
+      "6": 0.7,
+      "7": 0.1,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "compativel_com_processo_aleatorio": false,
+    "menor_p_valor_alcancavel": 4.719778081444435e-10
+  },
+  "poder": {
+    "alvo_poder": 0.8,
+    "alpha_corrigido": 4.0096230954290296e-05,
+    "cenarios": [
+      {
+        "multiplo_da_taxa_base": 2.0,
+        "incidencia_alvo": 0.28392568659127626,
+        "entregas_necessarias": 190
+      },
+      {
+        "multiplo_da_taxa_base": 3.0,
+        "incidencia_alvo": 0.4258885298869144,
+        "entregas_necessarias": 55
+      },
+      {
+        "multiplo_da_taxa_base": 4.0,
+        "incidencia_alvo": 0.5678513731825525,
+        "entregas_necessarias": 30
+      }
+    ],
+    "entregas_disponiveis_max": 11,
+    "subdimensionamento": 17.272727272727273
+  },
+  "derivados": {
+    "pedidos_1_item_esperado_com_falta": 59.482431340872374,
+    "esperado_no_motorista_mais_ativo": 1.5615912762520194,
+    "valor_em_risco_milhares": 72.87016169405908
+  },
+  "conclusao": {
+    "sinal_de_fraude_detectado": false,
+    "existe_variacao_individual_entre_motoristas": false,
+    "operacao_vs_benchmark": "indistinguivel",
+    "variacao_regional_significativa": false,
+    "variacao_horaria_significativa": false,
+    "estudo_tem_poder_para_deteccao_individual": false
+  }
+}
