@@ -1,0 +1,8 @@
+# resultados/ e versionado: e o que a pessoa abre no GitHub sem rodar nada.
+# Fora o pickle intermediario, que se regenera com o pipeline.
+resultados/tabelas/base_limpa.pkl
+
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
